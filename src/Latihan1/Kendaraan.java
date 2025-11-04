@@ -15,13 +15,13 @@ public class Kendaraan {
         this.warna = warna;
         this.tahunProduksi = tahunProduksi;
         // - Print pesan "Constructor Kendaraan dipanggil"
+        System.out.println("");
         System.out.println("Constructor Kendaraan dipanggil");
     }
 
     // Method untuk menampilkan info
     public void displayInfo() {
         // TODO: Print semua informasi kendaraan
-        System.out.println("Contructor Mobil dipanggil");
         System.out.println("Merk: " + merk);
         System.out.println("Warna: " + warna);
         System.out.println("Tahun Produksi: " + tahunProduksi);
